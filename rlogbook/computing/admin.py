@@ -9,24 +9,33 @@ class ComputerAdmin(admin.ModelAdmin):
                     'subnet')
     fieldsets = [
         (None, {
-            'fields': ('hostname', 'name', 'computer_type', 'ip', 'user', 'room',
-                       'subnet'),
+            'fields': ('hostname', 'name', 'computer_type', 'ip', 'user',
+                       'room', 'subnet'),
             }),
         ('Purpose', {
             'fields': ('purpose', 'prior_purpose'),
             'classes': ['collapse'],
             }),
         ('Networking', {
-            'fields': ['mac_address', 'dns_cname', 'dns_hinfo_computer',
-                       'ip_policy'],
+            'fields': ['mac_address', 'mac_airport', 'mac_bluetooth',
+                       'dns_cname', 'dns_hinfo_computer', 'ip_policy'],
             'classes': ['collapse'],
             }),
         ('Software', {
-            'fields': ['os', 'software_licenses'],
+            'fields': ['os', 'standard_software', 'additional_software',
+                       'software_licenses'],
             'classes': ['collapse'],
             }),
         ('Hardware', {
             'fields': ['serial_number'],
+            'classes': ['collapse'],
+            }),
+        ('Mac specific information', {
+            'fields': ['part_no', 'netrestore_image'],
+            'classes': ['collapse'],
+            }),
+        ('Purchase and information', {
+            'fields': ['purchase_date', 'warranty'],
             'classes': ['collapse'],
             }),
         ('Misc', {
@@ -34,9 +43,8 @@ class ComputerAdmin(admin.ModelAdmin):
             'classes': ['collapse'],
             }),
         ('Notes', {
-            'fields': ['comment'],
+            'fields': ['repair_log', 'comment'],
             }),
-        #('Usage information', {'fields': ['user'], 'classes': ['collapse']}),
     ]
 
 
