@@ -1,7 +1,7 @@
 from django.contrib import admin
 
 from computing.models import (Computer, OperatingSystem, IPPolicy, Subnet,
-                              ComputerType)
+                              ComputerType, Warranty)
 
 
 class ComputerAdmin(admin.ModelAdmin):
@@ -30,11 +30,11 @@ class ComputerAdmin(admin.ModelAdmin):
             'fields': ['serial_number'],
             'classes': ['collapse'],
             }),
-        ('Mac specific information', {
-            'fields': ['part_no', 'netrestore_image'],
+        ('Apple specific information', {
+            'fields': ['part_no', 'netrestore_image', 'model_year'],
             'classes': ['collapse'],
             }),
-        ('Purchase and information', {
+        ('Purchase and warranty information', {
             'fields': ['purchase_date', 'warranty'],
             'classes': ['collapse'],
             }),
@@ -53,3 +53,4 @@ admin.site.register(ComputerType)
 admin.site.register(OperatingSystem)
 admin.site.register(IPPolicy)
 admin.site.register(Subnet)
+admin.site.register(Warranty)

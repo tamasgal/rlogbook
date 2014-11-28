@@ -82,6 +82,7 @@ class Computer(models.Model):
     # Apple specific
     mac_airport = models.CharField(max_length=17, null=True, blank=True)
     mac_bluetooth = models.CharField(max_length=17, null=True, blank=True)
+    model_year = models.CharField(max_length=50, null=True, blank=True)
     part_no = models.CharField(max_length=50, null=True, blank=True)
     netrestore_image = models.CharField(max_length=200, null=True, blank=True)
 
