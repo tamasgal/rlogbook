@@ -7,7 +7,7 @@ from computing.models import (Computer, OperatingSystem, IPPolicy, Subnet,
 class ComputerAdmin(admin.ModelAdmin):
     list_display = ('hostname', 'name', 'computer_type', 'ip', 'user', 'room',
                     'subnet')
-    list_filter = ('computer_type', 'room', 'subnet')
+    list_filter = ('computer_type', 'subnet', 'room')
     fieldsets = [
         (None, {
             'fields': ('hostname', 'name', 'computer_type', 'ip', 'user',
