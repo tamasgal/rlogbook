@@ -86,8 +86,6 @@ class Computer(models.Model):
     part_no = models.CharField(max_length=50, null=True, blank=True)
     netrestore_image = models.CharField(max_length=200, null=True, blank=True)
 
-
-
     #todo = models.TextField()
 
     def __unicode__(self):

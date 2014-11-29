@@ -8,6 +8,7 @@ class ComputerAdmin(admin.ModelAdmin):
     list_display = ('hostname', 'name', 'computer_type', 'ip', 'user', 'room',
                     'subnet')
     list_filter = ('computer_type', 'subnet', 'room')
+    search_fields = ['name', 'hostname']
     fieldsets = [
         (None, {
             'fields': ('hostname', 'name', 'computer_type', 'ip', 'user',
