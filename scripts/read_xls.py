@@ -2,7 +2,7 @@
 # coding=utf-8
 # Filename: read_xls.py
 """
-Excel to database
+Reads from an Excel file and imports/updates entries in the database.
 
 """
 import sys
@@ -15,6 +15,7 @@ import django
 django.setup()
 
 from computing.models import Computer, ComputerType, Subnet
+from facility.models import User
 
 file = '/Users/tamasgal/Desktop/Computing_List_2014_reformatted.xlsx'
 
@@ -34,6 +35,24 @@ header = []
 for title in mac_mini_sheet.row_values(0):
     header.append(title)
 
+def get_user(raw_entry):
+    name = raw_entry.strip()
+    if not name:
+        return
+    if ',' in name:
+        lastname, firstname = name.split(',')
+        name = u"{0} {1}".format(firstname.strip(), lastname.strip())
+    users_in_db = User.objects.filter(name=name)
+    if users_in_db:
+        return users_in_db[0]
+    else:
+        user = User(name=name)
+        user.save()
+        return user
+
+
+new_entries = 0
+updated_entries = 0
 for i in range(1, mac_mini_sheet.nrows):
     values = mac_mini_sheet.row_values(i)
     name = values[0].strip()
@@ -44,14 +63,24 @@ for i in range(1, mac_mini_sheet.nrows):
                 print("More than one entry for computer with name {}"
                       .format(name))
             computer = computers_in_db[0]
+            updated_entries += 1
         else:
             computer = Computer()
+            new_entries += 1
         computer.name = name
         computer.ip = values[2]
         computer.serial_number = values[3]
         computer.mac_address = values[4]
         computer.mac_airport = values[5]
-        computer.mac_bluetooth = values[5]
+        computer.mac_bluetooth = values[6]
         computer.computer_type = ComputerType.objects.filter(name='Mac Mini')[0]
         computer.subnet = Subnet.objects.filter(name='Arbeitsplätze')[0]
+        computer.part_no = values[7]
+        computer.user = get_user(values[8])
+        computer.hostname = 'pi2' + name.split(' ')[2]
         computer.save()
+
+
+
+print("New entries: {}".format(new_entries))
+print("Updated entries: {}".format(updated_entries))
