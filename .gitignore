@@ -55,3 +55,11 @@ target/
 
 # Databases
 *.sqlite3
+
+# Sheets
+scripts/*.xls
+scripts/*.xlsx
+scripts/*.numbers
+
+# Misc scripts
+scripts/sync.sh
