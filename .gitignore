@@ -63,3 +63,6 @@ scripts/*.numbers
 
 # Misc scripts
 scripts/sync.sh
+
+# VI
+*.swp
