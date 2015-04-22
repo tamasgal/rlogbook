@@ -20,7 +20,7 @@ class Room(models.Model):
         return "{0} {1}".format(self.building.acronym, self.room_number)
 
     class Meta:
-        ordering = ('room_number',)
+        ordering = ('building', 'room_number')
 
 
 class Location(models.Model):
