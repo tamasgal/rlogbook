@@ -38,6 +38,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'facility',
     'computing',
+    'logentry_admin',
 )
 
 MIDDLEWARE_CLASSES = (

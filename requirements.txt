@@ -1,3 +1,5 @@
 django
 tornado
 xlrd
+pytz
+django-logentry-admin
