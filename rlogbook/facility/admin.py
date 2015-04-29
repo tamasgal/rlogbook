@@ -3,8 +3,8 @@ from facility.models import Building, Room, Location, User
 
 
 class UserAdmin(admin.ModelAdmin):
-    list_display = ['name']
-    search_fields = ['name']
+    list_display = ['name', 'arrival', 'departure']
+    search_fields = ['name', 'arrival', 'departure']
 
 
 admin.site.register(User, UserAdmin)

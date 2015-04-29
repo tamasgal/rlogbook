@@ -36,9 +36,11 @@ class Location(models.Model):
 
 class User(models.Model):
     name = models.CharField(max_length=200)
+    arrival = models.DateField('arrival date', null=True, blank=True)
+    departure = models.DateField('departure date', null=True, blank=True)
 
     def __unicode__(self):
         return self.name
 
     class Meta:
-        ordering = ('name',)
+        ordering = ('name', 'arrival', 'departure')
