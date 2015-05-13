@@ -1,13 +1,15 @@
 from django.contrib import admin
 
 from computing.models import (Computer, OperatingSystem, IPPolicy, Subnet,
-                              ComputerType, Warranty)
+                              RRZELicense, ComputerType, Warranty)
+
 
 
 class ComputerAdmin(admin.ModelAdmin):
     list_display = ('hostname', 'name', 'computer_type', 'ip', 'user', 'room',
                     'subnet')
     list_filter = ('computer_type', 'subnet', 'room')
+    filter_horizontal = ('rrze_licenses',)
     search_fields = ['name', 'hostname']
     fieldsets = [
         (None, {
@@ -25,7 +27,7 @@ class ComputerAdmin(admin.ModelAdmin):
             }),
         ('Software', {
             'fields': ['os', 'standard_software', 'additional_software',
-                       'software_licenses'],
+                       'software_licenses', 'rrze_licenses'],
             'classes': ['collapse'],
             }),
         ('Hardware', {
@@ -54,5 +56,10 @@ admin.site.register(Computer, ComputerAdmin)
 admin.site.register(ComputerType)
 admin.site.register(OperatingSystem)
 admin.site.register(IPPolicy)
+admin.site.register(RRZELicense)
 admin.site.register(Subnet)
 admin.site.register(Warranty)
+
+
+
+

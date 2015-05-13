@@ -48,6 +48,12 @@ class Warranty(models.Model):
             return "{0} ({1} months)".format(self.name, self.warranty_length)
         return self.name
 
+class RRZELicense(models.Model):
+    name = models.CharField(max_length=200)
+    order_nr = models.CharField(max_length=200)
+
+    def __unicode__(self):
+        return self.name
 
 class Computer(models.Model):
     serial_number = models.CharField(max_length=200, null=True, blank=True)
@@ -74,6 +80,7 @@ class Computer(models.Model):
     # Software
     standard_software = models.CharField(max_length=200, null=True, blank=True)
     additional_software = models.CharField(max_length=200, null=True, blank=True)
+    rrze_licenses = models.ManyToManyField(RRZELicense)
 
     # Warranty and purchase information
     warranty = models.ForeignKey(Warranty, null=True, blank=True)
