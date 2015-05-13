@@ -25,7 +25,7 @@ django.setup()
 from computing.models import RRZELicense
 
 
-with open('/Users/tamasgal/rrze.txt', 'r') as f:
+with open('rrze.txt', 'r') as f:
     lines = [line.strip() for line in f.readlines()]
     names = lines[1::2]
     order_nr = lines[::2]
