@@ -1,0 +1,490 @@
+DS-ABA-R-L-E-F
+Abaqus Research 6.14-2 (Linux, englisch)
+DS-ABA-R-W-E-F
+Abaqus Research 6.14-2 (Windows, englisch)
+DS-ABA-T-L-E-F
+Abaqus Teaching 6.14-2 (Linux, englisch)
+DS-ABA-T-W-E-F
+Abaqus Teaching 6.14-2 (Windows, englisch)
+DS-ABC-R-L-E-F
+Abaqus/CAE Research 6.14-2 (Linux, englisch)
+DS-ABC-R-W-E-F
+Abaqus/CAE Research 6.14-2 (Windows, englisch)
+AB-ACR-P-M-M-6
+Adobe Acrobat Professional XI-11.0 (OS X, mehrsprachig)
+AB-ACR-P-W-M-6
+Adobe Acrobat Professional XI-11.0 (Windows, mehrsprachig)
+AB-FRA-1-W-M-8
+Adobe FrameMaker 11.0 (Windows, mehrsprachig)
+AB-MSV-P-W-E-1
+Adobe Media Server Professional 5.0.3 (Windows, englisch)
+AS-ACM-R-L-M-2
+ANSYS Academic CFD&Mechanical Research 16.1 (Linux, mehrsprachig)
+AS-ACM-R-W-M-2
+ANSYS Academic CFD&Mechanical Research 16.1 (Windows, mehrsprachig)
+AS-ACM-T-L-M-2
+ANSYS Academic CFD&Mechanical Teaching 16.1 (Linux, mehrsprachig)
+AS-ACM-T-W-M-2
+ANSYS Academic CFD&Mechanical Teaching 16.1 (Windows, mehrsprachig)
+AS-AEM-R-L-M-2
+ANSYS Academic Electromagnetics Research 16.1 (Linux, mehrsprachig)
+AS-AEM-R-W-M-2
+ANSYS Academic Electromagnetics Research 16.1 (Windows, mehrsprachig)
+AS-AEM-T-L-M-2
+ANSYS Academic Electromagnetics Teaching 16.1 (Linux, mehrsprachig)
+AS-AEM-T-W-M-2
+ANSYS Academic Electromagnetics Teaching 16.1 (Windows, mehrsprachig)
+AS-HPC-R-L-M-2
+ANSYS Academic HPC Research 16.1 (Linux, mehrsprachig)
+AS-HPC-R-W-M-2
+ANSYS Academic HPC Research 16.1 (Windows, mehrsprachig)
+AP-FCS-1-M-D-1
+Apple Final Cut Studio 3.0 (OS X, deutsch)
+AP-ILI-1-M-D-2
+Apple iLife 11 (OS X, deutsch)
+AP-IWO-1-M-D-2
+Apple iWork 09 (OS X, deutsch)
+AP-MAC-1-R-M-6
+Apple OS X 10.8.4 (Intel-Mac, mehrsprachig)
+AP-QTM-P-M-M-3
+Apple QuickTime Professional 7.7 (OS X, mehrsprachig)
+AP-QTM-P-W-M-4
+Apple QuickTime Professional 7.7.6 (Windows, mehrsprachig)
+ES-AIN-D-W-E-4
+ArcGIS for Desktop Advanced 10.3 (Windows, englisch)
+CA-ARC-1-W-M-8
+ARCserve Backup 16.5 (Windows, mehrsprachig)
+AD-ECP-1-M-E-0
+Autodesk Education Community Program 2015 (OS X, englisch)
+AD-ECP-1-W-D-0
+Autodesk Education Community Program 2015 (Windows, deutsch)
+BW-BIB-1-W-E-3
+BibleWorks 8.0 (Windows, englisch)
+BL-TOG-1-L-E-2
+Borland Together 12.5 (Linux, englisch)
+BL-TOG-1-W-E-2
+Borland Together 12.5 (Windows, englisch)
+TS-CTS-1-W-D-3
+Camtasia Studio 8.4.4 (Windows, deutsch)
+TS-CTS-1-W-E-2
+Camtasia Studio 8.4.4 (Windows, englisch)
+CB-CBD-U-M-E-5
+ChemBioDraw Ultra 14.0 (OS X, englisch)
+CB-CBO-U-W-E-5
+ChemBioOffice Ultra 14.0 (Windows, englisch)
+AZ-CTI-M-W-D-5
+Citavi Team 5.0 (Windows, deutsch)
+CL-MP1-R-L-M-E
+COMSOL Multiphysics AC/DC Module Research 5.1 (Linux, mehrsprachig)
+CL-MP1-R-M-M-E
+COMSOL Multiphysics AC/DC Module Research 5.1 (OS X, mehrsprachig)
+CL-MP1-R-W-M-E
+COMSOL Multiphysics AC/DC Module Research 5.1 (Windows, mehrsprachig)
+CL-MP3-R-L-M-E
+COMSOL Multiphysics CAD Import Module Research 5.1 (Linux, mehrsprachig)
+CL-MP3-R-M-M-E
+COMSOL Multiphysics CAD Import Module Research 5.1 (OS X, mehrsprachig)
+CL-MP3-R-W-M-E
+COMSOL Multiphysics CAD Import Module Research 5.1 (Windows, mehrsprachig)
+CL-MP4-R-L-M-E
+COMSOL Multiphysics Material Library Research 5.1 (Linux, mehrsprachig)
+CL-MP4-R-M-M-E
+COMSOL Multiphysics Material Library Research 5.1 (OS X, mehrsprachig)
+CL-MP4-R-W-M-E
+COMSOL Multiphysics Material Library Research 5.1 (Windows, mehrsprachig)
+CL-MP5-R-L-M-E
+COMSOL Multiphysics MEMS Module Research 5.1 (Linux, mehrsprachig)
+CL-MP5-R-M-M-E
+COMSOL Multiphysics MEMS Module Research 5.1 (OS X, mehrsprachig)
+CL-MP5-R-W-M-E
+COMSOL Multiphysics MEMS Module Research 5.1 (Windows, mehrsprachig)
+CL-MP8-R-L-M-E
+COMSOL Multiphysics Nonlinear Structural Materials Module Research 5.1 (Linux, mehrsprachig)
+CL-MP8-R-M-M-E
+COMSOL Multiphysics Nonlinear Structural Materials Module Research 5.1 (OS X, mehrsprachig)
+CL-MP8-R-W-M-E
+COMSOL Multiphysics Nonlinear Structural Materials Module Research 5.1 (Windows, mehrsprachig)
+CL-MP7-R-L-M-E
+COMSOL Multiphysics Particle Tracing Module Research 5.1 (Linux, mehrsprachig)
+CL-MP7-R-M-M-E
+COMSOL Multiphysics Particle Tracing Module Research 5.1 (OS X, mehrsprachig)
+CL-MP7-R-W-M-E
+COMSOL Multiphysics Particle Tracing Module Research 5.1 (Windows, mehrsprachig)
+CL-MP0-R-L-M-E
+COMSOL Multiphysics Research 5.1 (Linux, mehrsprachig)
+CL-MP0-R-M-M-E
+COMSOL Multiphysics Research 5.1 (OS X, mehrsprachig)
+CL-MP0-R-W-M-E
+COMSOL Multiphysics Research 5.1 (Windows, mehrsprachig)
+CL-MP2-R-L-M-E
+COMSOL Multiphysics RF Module Research 5.1 (Linux, mehrsprachig)
+CL-MP2-R-M-M-E
+COMSOL Multiphysics RF Module Research 5.1 (OS X, mehrsprachig)
+CL-MP2-R-W-M-E
+COMSOL Multiphysics RF Module Research 5.1 (Windows, mehrsprachig)
+CL-MP6-R-L-M-E
+COMSOL Multiphysics Structural Mechanics Module Research 5.1 (Linux, mehrsprachig)
+CL-MP6-R-M-M-E
+COMSOL Multiphysics Structural Mechanics Module Research 5.1 (OS X, mehrsprachig)
+CL-MP6-R-W-M-E
+COMSOL Multiphysics Structural Mechanics Module Research 5.1 (Windows, mehrsprachig)
+CL-MP0-T-L-M-E
+COMSOL Multiphysics Teaching 5.1 (Linux, mehrsprachig)
+CL-MP0-T-M-M-E
+COMSOL Multiphysics Teaching 5.1 (OS X, mehrsprachig)
+CL-MP0-T-W-M-E
+COMSOL Multiphysics Teaching 5.1 (Windows, mehrsprachig)
+CL-MP9-R-L-M-E
+COMSOL Multiphysics Wave Optics Module Research 5.1 (Linux, mehrsprachig)
+CL-MP9-R-M-M-E
+COMSOL Multiphysics Wave Optics Module Research 5.1 (OS X, mehrsprachig)
+CL-MP9-R-W-M-E
+COMSOL Multiphysics Wave Optics Module Research 5.1 (Windows, mehrsprachig)
+CR-DES-1-W-M-7
+Corel DESIGNER Technical Suite X7 (Windows, mehrsprachig)
+CR-DGS-1-W-M-8
+Corel DRAW Graphics Suite X7 (Windows, mehrsprachig)
+CR-PSP-1-W-M-4
+Corel Paint Shop Pro Photo X7 (Windows, mehrsprachig)
+CR-PTR-1-M-M-5
+Corel Painter 2015 (OS X, mehrsprachig)
+CR-PTR-1-W-M-5
+Corel Painter 2015 (Windows, mehrsprachig)
+CR-WPO-1-W-D-5
+Corel WordPerfect Office X3 (Windows, deutsch)
+PT-CR0-1-W-M-3
+Creo 3.0 (Windows, mehrsprachig)
+PT-UNI-1-W-M-7
+Creo Elements/Pro 5.0 (Windows, mehrsprachig)
+NA-DNS-L-W-M-3
+Dragon NaturallySpeaking Legal 13.0 (Windows, mehrsprachig)
+NA-DNS-P-W-M-4
+Dragon NaturallySpeaking Professional 13.0 (Windows, mehrsprachig)
+EM-RAD-A-W-M-9
+Embarcadero RAD Studio Architect XE7 (Windows, mehrsprachig)
+IR-END-1-M-E-D
+EndNote X7.2 (OS X, englisch)
+IR-END-1-W-E-D
+EndNote X7.2 (Windows, englisch)
+FM-FIL-P-M-M-A
+FileMaker Professional 13.0 (OS X, mehrsprachig)
+FM-FIL-P-W-M-A
+FileMaker Professional 13.0 (Windows, mehrsprachig)
+AY-FIN-G-W-M-1
+FineReader Corporate 12.0 (Windows, mehrsprachig)
+AY-FIN-P-M-M-1
+FineReader Professional 12.0 (OS X, mehrsprachig)
+GP-PRI-1-M-E-0
+GraphPad Prism 6.0 (OS X, englisch)
+GP-PRI-1-W-E-0
+GraphPad Prism 6.0 (Windows, englisch)
+HS-IBE-1-W-M-9
+IBExpert 2014 (Windows, mehrsprachig)
+IB-SP1-1-L-M-5
+IBM SPSS*Einzelplatz 23.0 (Linux, mehrsprachig)
+IB-SP1-1-M-M-5
+IBM SPSS*Einzelplatz 23.0 (OS X, mehrsprachig)
+IB-SP1-1-W-M-5
+IBM SPSS*Einzelplatz 23.0 (Windows, mehrsprachig)
+IB-SP0-1-L-M-5
+IBM SPSS*Netzwerk 23.0 (Linux, mehrsprachig)
+IB-SP0-1-M-M-5
+IBM SPSS*Netzwerk 23.0 (OS X, mehrsprachig)
+IB-SP0-1-W-M-5
+IBM SPSS*Netzwerk 23.0 (Windows, mehrsprachig)
+CS-IDL-1-L-E-C
+IDL 8.4 (Linux, englisch)
+CS-IDL-1-M-E-C
+IDL 8.4 (OS X, englisch)
+CS-IDL-1-W-E-C
+IDL 8.4 (Windows, englisch)
+IT-CCL-1-L-E-4
+Intel C++ Composer for Linux XE 2015.1 (Linux, englisch)
+IT-CCW-1-W-E-4
+Intel C++ Composer for Windows XE 2015.1 (Windows, englisch)
+IT-FCL-1-L-E-4
+Intel Fortran Composer for Linux XE 2015.1 (Linux, englisch)
+IT-FCW-1-W-E-4
+Intel Visual Fortran Composer for Windows XE 2015.1 (Windows, englisch)
+IT-VAL-1-L-E-4
+Intel VTune Amplifier for Linux XE 2015.1 (Linux, englisch)
+IT-VAW-1-W-E-4
+Intel VTune Amplifier for Windows XE 2015.1 (Windows, englisch)
+JS-JRB-1-N-E-7
+JRButils 17.0 (Netware, englisch)
+NI-LAB-P-L-E-K
+LabVIEW*Einzelplatz Professional 2015 Spring (Linux, englisch)
+NI-LAB-P-M-E-K
+LabVIEW*Einzelplatz Professional 2015 Spring (OS X, englisch)
+NI-LAB-P-W-M-K
+LabVIEW*Einzelplatz Professional 2015 Spring (Windows, mehrsprachig)
+NI-LA0-P-W-M-K
+LabVIEW*Netzwerk Professional 2015 Spring (Windows, mehrsprachig)
+WM-MA1-1-L-E-G
+Maple*Einzelplatz 2015 (Linux, englisch)
+WM-MA1-1-M-E-G
+Maple*Einzelplatz 2015 (OS X, englisch)
+WM-MA1-1-W-E-G
+Maple*Einzelplatz 2015 (Windows, englisch)
+WM-MAN-1-L-E-G
+Maple*Netzwerk 2015 (Linux, englisch)
+WM-MAN-1-M-E-G
+Maple*Netzwerk 2015 (OS X, englisch)
+WM-MAN-1-W-E-G
+Maple*Netzwerk 2015 (Windows, englisch)
+PT-MT0-1-W-M-4
+Mathcad Prime 3.1 (Windows, mehrsprachig)
+WR-MMT-1-L-E-L
+Mathematica 10.1 (Linux, englisch)
+WR-MMT-1-M-E-L
+Mathematica 10.1 (OS X, englisch)
+WR-MMT-1-W-E-L
+Mathematica 10.1 (Windows, englisch)
+MW-MAT-R-L-E-A
+MATLAB Research R2015a (Linux, englisch)
+MW-MAT-R-M-E-A
+MATLAB Research R2015a (OS X, englisch)
+MW-MAT-R-W-E-A
+MATLAB Research R2015a (Windows, englisch)
+MW-MAT-T-L-E-A
+MATLAB Teaching R2015a (Linux, englisch)
+MW-MAT-T-M-E-A
+MATLAB Teaching R2015a (OS X, englisch)
+MW-MAT-T-W-E-A
+MATLAB Teaching R2015a (Windows, englisch)
+VE-MQD-1-M-D-2
+MAXQDAplus 11.0 (OS X, deutsch)
+VE-MQD-1-W-D-2
+MAXQDAplus 11.0 (Windows, deutsch)
+MS-DSK-1-X-D-1
+Microsoft Desktop: Windows+Office (AMD/Intel 32, deutsch)
+MS-DSK-1-X-E-1
+Microsoft Desktop: Windows+Office (AMD/Intel 32, englisch)
+MS-DSK-1-6-D-1
+Microsoft Desktop: Windows+Office (AMD/Intel 64, deutsch)
+MS-DSK-1-6-E-1
+Microsoft Desktop: Windows+Office (AMD/Intel 64, englisch)
+MS-ENC-7-W-D-3
+Microsoft Encarta Premium 2009 (Windows, deutsch)
+MS-ENC-7-W-E-3
+Microsoft Encarta Premium 2009 (Windows, englisch)
+MS-ESC-E-W-M-4
+Microsoft Exchange Server Client Access-Lizenz Enterprise 2007 (Windows, mehrsprachig)
+MS-ESC-E-W-M-5
+Microsoft Exchange Server Client Access-Lizenz Enterprise 2010 (Windows, mehrsprachig)
+MS-ESC-S-W-M-4
+Microsoft Exchange Server Client Access-Lizenz Standard 2007 (Windows, mehrsprachig)
+MS-ESC-S-W-M-5
+Microsoft Exchange Server Client Access-Lizenz Standard 2010 (Windows, mehrsprachig)
+MS-ESV-E-4-D-1
+Microsoft Exchange Server Enterprise 2007 (Windows 64, deutsch)
+MS-ESV-E-4-E-1
+Microsoft Exchange Server Enterprise 2007 (Windows 64, englisch)
+MS-ESV-E-4-M-1
+Microsoft Exchange Server Enterprise 2010 (Windows 64, mehrsprachig)
+MS-ESV-S-4-D-1
+Microsoft Exchange Server Standard 2007 (Windows 64, deutsch)
+MS-ESV-S-4-E-1
+Microsoft Exchange Server Standard 2007 (Windows 64, englisch)
+MS-ESV-S-4-M-1
+Microsoft Exchange Server Standard 2010 (Windows 64, mehrsprachig)
+MS-EXW-1-W-D-1
+Microsoft Expression Web 3.0 (Windows, deutsch)
+MS-EXW-1-W-E-1
+Microsoft Expression Web 3.0 (Windows, englisch)
+MS-FFS-1-W-D-1
+Microsoft Forefront Unified Access Gateway 2010 (Windows, deutsch)
+MS-FFC-1-W-M-1
+Microsoft Forefront Unified Access Gateway Client Access-Lizenz 2010 (AMD/Intel 64, mehrsprachig)
+MS-OFF-S-M-D-1
+Microsoft Office Standard 2011 SP3 (OS X, deutsch)
+MS-OFF-S-M-E-1
+Microsoft Office Standard 2011 SP3 (OS X, englisch)
+MS-PRO-P-W-D-5
+Microsoft Project Professional 2010 SP1 (Windows, deutsch)
+MS-PRO-P-W-E-5
+Microsoft Project Professional 2010 SP1 (Windows, englisch)
+MS-PRO-P-W-D-6
+Microsoft Project Professional 2013 (Windows, deutsch)
+MS-PRO-P-W-E-6
+Microsoft Project Professional 2013 (Windows, englisch)
+MS-SPS-1-W-D-2
+Microsoft SharePoint Server 2013 SP1 (Windows, deutsch)
+MS-SPS-1-W-E-2
+Microsoft SharePoint Server 2013 SP1 (Windows, englisch)
+MS-SPC-E-W-M-2
+Microsoft SharePoint Server Client Access-Lizenz Enterprise 2013 (Windows, mehrsprachig)
+MS-SPC-S-W-M-2
+Microsoft SharePoint Server Client Access-Lizenz Standard 2013 (Windows, mehrsprachig)
+MS-SSC-1-W-M-4
+Microsoft SQL Server Client Access-Lizenz 2008 (Windows, mehrsprachig)
+MS-SSV-E-W-D-4
+Microsoft SQL Server Enterprise 2008 (Windows, deutsch)
+MS-SSV-E-W-E-4
+Microsoft SQL Server Enterprise 2008 (Windows, englisch)
+MS-SSV-S-W-D-4
+Microsoft SQL Server Standard 2008 (Windows, deutsch)
+MS-SSV-S-W-E-4
+Microsoft SQL Server Standard 2008 (Windows, englisch)
+MS-VIS-7-W-D-5
+Microsoft Visio Premium 2010 SP1 (Windows, deutsch)
+MS-VIS-7-W-E-5
+Microsoft Visio Premium 2010 SP1 (Windows, englisch)
+MS-VIS-P-W-D-5
+Microsoft Visio Professional 2010 (Windows, deutsch)
+MS-VIS-P-W-E-5
+Microsoft Visio Professional 2010 (Windows, englisch)
+MS-VIS-P-W-D-6
+Microsoft Visio Professional 2013 (Windows, deutsch)
+MS-VIS-P-W-E-6
+Microsoft Visio Professional 2013 (Windows, englisch)
+MS-VFO-P-W-E-4
+Microsoft Visual FoxPro Professional 9.0 (Windows, englisch)
+MS-VSN-7-W-D-2
+Microsoft Visual Studio Premium 2012 (Windows, deutsch)
+MS-VSN-7-W-E-2
+Microsoft Visual Studio Premium 2012 (Windows, englisch)
+MS-VSN-P-W-D-7
+Microsoft Visual Studio Professional 2012 (Windows, deutsch)
+MS-VSN-P-W-E-7
+Microsoft Visual Studio Professional 2012 (Windows, englisch)
+MS-WIN-E-X-D-1
+Microsoft Windows Enterprise 7 (AMD/Intel 32, deutsch)
+MS-WIN-E-X-E-1
+Microsoft Windows Enterprise 7 (AMD/Intel 32, englisch)
+MS-WIN-E-6-D-1
+Microsoft Windows Enterprise 7 (AMD/Intel 64, deutsch)
+MS-WIN-E-6-E-1
+Microsoft Windows Enterprise 7 (AMD/Intel 64, englisch)
+MS-WIN-E-X-D-3
+Microsoft Windows Enterprise 8.1 (AMD/Intel 32, deutsch)
+MS-WIN-E-X-E-3
+Microsoft Windows Enterprise 8.1 (AMD/Intel 32, englisch)
+MS-WIN-E-6-D-3
+Microsoft Windows Enterprise 8.1 (AMD/Intel 64, deutsch)
+MS-WIN-E-6-E-3
+Microsoft Windows Enterprise 8.1 (AMD/Intel 64, englisch)
+MS-FLP-1-X-M-1
+Microsoft Windows Fundamentals for Legacy PCs 2006 (AMD/Intel 32, mehrsprachig)
+MS-WTC-1-W-M-3
+Microsoft Windows Remote Desktop Services Client Access-Lizenz 2003 (Windows, mehrsprachig)
+MS-WTC-1-W-M-4
+Microsoft Windows Remote Desktop Services Client Access-Lizenz 2008 (Windows, mehrsprachig)
+MS-WSC-1-W-M-3
+Microsoft Windows Server Client Access-Lizenz 2003 (Windows, mehrsprachig)
+MS-WSC-1-W-M-4
+Microsoft Windows Server Client Access-Lizenz 2008 (Windows, mehrsprachig)
+MS-WSV-E-6-E-4
+Microsoft Windows Server Enterprise 2008R2 (AMD/Intel 64, englisch)
+MS-WSV-S-6-D-4
+Microsoft Windows Server Standard 2008R2 (AMD/Intel 64, deutsch)
+MS-WSV-S-6-E-4
+Microsoft Windows Server Standard 2008R2 (AMD/Intel 64, englisch)
+MJ-MIN-1-M-D-7
+Mindmanager 10.2 (OS X, mehrsprachig)
+MJ-MIN-1-W-D-4
+Mindmanager 15.0 (Windows, mehrsprachig)
+MC-ADA-1-L-E-B
+MSC Adams 2014 (Linux, englisch)
+MC-ADA-1-W-E-B
+MSC Adams 2014 (Windows, englisch)
+MC-MAR-1-L-E-E
+MSC Marc-Mentat 2014 (Linux, englisch)
+MC-MAR-1-W-E-E
+MSC Marc-Mentat 2014 (Windows, englisch)
+MC-NAS-1-L-E-F
+MSC Nastran 2014 (Linux, englisch)
+MC-NAS-1-W-E-F
+MSC Nastran 2014 (Windows, englisch)
+MC-PAT-1-L-E-F
+MSC Patran 2014 (Linux, englisch)
+MC-PAT-1-W-E-F
+MSC Patran 2014 (Windows, englisch)
+GS-MNM-P-W-E-3
+MultiNetwork Manager Professional 9.0 (Windows, englisch)
+AH-NER-7-W-M-5
+Nero Premium 2014 (Windows, mehrsprachig)
+AH-NER-S-W-M-5
+Nero Standard 2014 (Windows, mehrsprachig)
+NS-NIN-E-W-M-5
+NetInstall Enterprise 6.1 (Windows, mehrsprachig)
+SI-NXU-1-L-M-B
+NX 10.0 (Linux, mehrsprachig)
+SI-NXU-1-M-M-B
+NX 10.0 (OS X, mehrsprachig)
+SI-NXU-1-W-M-B
+NX 10.0 (Windows, mehrsprachig)
+OL-ORI-1-W-M-D
+Origin 2015 (Windows, mehrsprachig)
+OL-ORI-P-W-M-D
+Origin Professional 2015 (Windows, mehrsprachig)
+PA-DKT-1-M-D-6
+Parallels Desktop 10.0 (Intel-Mac, deutsch)
+AT-PCO-1-W-E-4
+Pcounter 2.11 (Windows, englisch)
+AT-PCO-1-N-E-4
+Pcounter 5.21 (Netware, englisch)
+SR-PDK-1-W-D-2
+pdfKorrektor 1.0.5 (Windows, deutsch)
+M4-PLA-1-W-M-3
+PlagiarismFinder 2.0 (Windows, mehrsprachig)
+SA-SA0-1-W-M-0
+SAS Analytics Pro 9.4 (Windows, mehrsprachig)
+SA-SA3-1-W-M-0
+SAS/ACCESS Interface to ODBC 9.4 (Windows, mehrsprachig)
+SA-SA4-1-W-M-0
+SAS/ACCESS Interface to PC File Formats 9.4 (Windows, mehrsprachig)
+SA-SA1-1-W-M-0
+SAS/AF 9.4 (Windows, mehrsprachig)
+SA-SA2-1-W-M-0
+SAS/FSP 9.4 (Windows, mehrsprachig)
+SI-SOL-C-W-D-5
+Solid Edge Academic University ST7 (Windows, deutsch)
+SI-SOL-C-W-E-5
+Solid Edge Academic University ST7 (Windows, englisch)
+SO-SOP-1-N-D-8
+Sophos Anti-Virus 4.5 (Netware, deutsch)
+SO-SOP-1-U-D-8
+Sophos Anti-Virus 4.5 (UNIX, deutsch)
+SO-SOP-1-L-D-8
+Sophos Anti-Virus 7.1 (Linux, deutsch)
+SO-SOP-1-M-D-a
+Sophos Anti-Virus 9.2.4 (OS X, deutsch)
+SO-SES-1-W-D-0
+Sophos Endpoint Security and Control 10.3 (Windows, deutsch)
+ST-STS-1-L-E-4
+Stata/SE 13.0 (Linux, englisch)
+ST-STS-1-M-E-4
+Stata/SE 13.0 (OS X, englisch)
+ST-STS-1-W-E-4
+Stata/SE 13.0 (Windows, englisch)
+SY-GSS-1-W-D-3
+Symantec Ghost Solution Suite 2.5 (Windows, deutsch)
+SY-GSS-1-W-E-3
+Symantec Ghost Solution Suite 2.5 (Windows, englisch)
+SS-SIP-1-W-E-9
+Systat Software SigmaPlot 13 (Windows, englisch)
+SS-SIS-P-W-E-2
+Systat Software SigmaScan Professional 5.0 (Windows, englisch)
+SS-SYS-1-W-E-6
+Systat Software SYSTAT 13.0 (Windows, englisch)
+SS-TC2-1-W-E-2
+Systat Software TableCurve 2D 5.01 (Windows, englisch)
+SS-TC3-1-W-E-3
+Systat Software TableCurve 3D 4.0 (Windows, englisch)
+RO-TOA-1-M-M-4
+Toast Titanium 11.0 (OS X, mehrsprachig)
+RO-TOA-P-M-M-1
+Toast Titanium Professional 10.0 (OS X, mehrsprachig)
+VM-VMF-1-M-D-7
+VMware Fusion 7.0 (OS X, deutsch)
+VM-VMW-1-L-E-F
+VMware Workstation 11.0 (Linux, englisch)
+VM-VMW-1-W-E-F
+VMware Workstation 11.0 (Windows, englisch)
+CC-VPN-1-Z-M-0
+VPN-Lizenz (Sonstige, mehrsprachig)
+JB-XV1-1-U-E-2
+XV 3.10 (UNIX, englisch)
+SN-XW0-1-W-M-2
+X-Win32 2012 (Windows, mehrsprachig)
