@@ -55,6 +55,9 @@ class RRZELicense(models.Model):
     def __unicode__(self):
         return self.name
 
+    class Meta:                                                                 
+        ordering = ('name', 'order_nr')    
+
 class Computer(models.Model):
     serial_number = models.CharField(max_length=200, null=True, blank=True)
     mac_address = models.CharField(max_length=17, null=True, blank=True)
