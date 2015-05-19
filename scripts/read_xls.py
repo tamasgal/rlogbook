@@ -17,7 +17,7 @@ django.setup()
 from computing.models import Computer, ComputerType, Subnet
 from facility.models import User
 
-file = '/Users/tamasgal/Desktop/Computing_List_2014_reformatted.xlsx'
+file = 'Computing_List_2014_reformatted.xlsx'
 
 book = xlrd.open_workbook(file)
 
