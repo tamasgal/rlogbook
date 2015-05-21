@@ -59,6 +59,7 @@ class RRZELicense(models.Model):
         ordering = ('name', 'order_nr')    
 
 class Computer(models.Model):
+    inventory_number = models.CharField(max_length=200, null=True, blank=True)
     serial_number = models.CharField(max_length=200, null=True, blank=True)
     mac_address = models.CharField(max_length=17, null=True, blank=True)
     subnet = models.ForeignKey(Subnet, null=True, blank=True)
@@ -79,6 +80,9 @@ class Computer(models.Model):
     ip = models.GenericIPAddressField(null=True, blank=True)
 
     repair_log = models.TextField(null=True, blank=True)
+
+    # Hardware
+    ram = models.PositiveSmallIntegerField(null=True, blank=True)
 
     # Software
     standard_software = models.CharField(max_length=200, null=True, blank=True)

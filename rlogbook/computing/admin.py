@@ -7,14 +7,14 @@ from computing.models import (Computer, OperatingSystem, IPPolicy, Subnet,
 
 class ComputerAdmin(admin.ModelAdmin):
     list_display = ('hostname', 'name', 'computer_type', 'ip', 'user', 'room',
-                    'subnet')
+                    'subnet', 'inventory_number', 'ram')
     list_filter = ('computer_type', 'subnet', 'room')
     filter_horizontal = ('rrze_licenses',)
     search_fields = ['name', 'hostname']
     fieldsets = [
         (None, {
             'fields': ('hostname', 'name', 'computer_type', 'ip', 'user',
-                       'room', 'subnet'),
+                       'room', 'subnet', 'inventory_number'),
             }),
         ('Purpose', {
             'fields': ('purpose', 'prior_purpose'),
@@ -31,7 +31,7 @@ class ComputerAdmin(admin.ModelAdmin):
             'classes': ['collapse'],
             }),
         ('Hardware', {
-            'fields': ['serial_number'],
+            'fields': ['serial_number', 'ram'],
             'classes': ['collapse'],
             }),
         ('Apple specific information', {
