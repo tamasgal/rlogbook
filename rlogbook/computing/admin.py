@@ -6,8 +6,8 @@ from computing.models import (Computer, OperatingSystem, IPPolicy, Subnet,
 
 
 class ComputerAdmin(admin.ModelAdmin):
-    list_display = ('hostname', 'name', 'computer_type', 'ip', 'user', 'room',
-                    'subnet', 'inventory_number', 'ram')
+    list_display = ('hostname', 'name', 'purpose', 'computer_type', 'ip',
+                    'user', 'room', 'subnet', 'inventory_number', 'ram')
     list_filter = ('computer_type', 'subnet', 'room')
     filter_horizontal = ('rrze_licenses',)
     search_fields = ['name', 'hostname']
