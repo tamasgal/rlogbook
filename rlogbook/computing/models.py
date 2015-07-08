@@ -7,6 +7,8 @@ class OperatingSystem(models.Model):
     def __unicode__(self):
         return self.name
 
+    class Meta:
+        ordering = ('name', )
 
 
 class IPPolicy(models.Model):
@@ -14,6 +16,9 @@ class IPPolicy(models.Model):
 
     def __unicode__(self):
         return self.name
+
+    class Meta:
+        ordering = ('name', )
 
 
 class Subnet(models.Model):
@@ -24,12 +29,18 @@ class Subnet(models.Model):
     def __unicode__(self):
         return self.name
 
+    class Meta:
+        ordering = ('name', )
+
 
 class ComputerType(models.Model):
     name = models.CharField(max_length=200)
 
     def __unicode__(self):
         return self.name
+
+    class Meta:
+        ordering = ('name', )
 
 
 class CommonComputerInfo(models.Model):
@@ -48,6 +59,10 @@ class Warranty(models.Model):
             return "{0} ({1} months)".format(self.name, self.warranty_length)
         return self.name
 
+    class Meta:
+        ordering = ('name', )
+
+
 class RRZELicense(models.Model):
     name = models.CharField(max_length=200)
     order_nr = models.CharField(max_length=200)
@@ -55,8 +70,8 @@ class RRZELicense(models.Model):
     def __unicode__(self):
         return self.name
 
-    class Meta:                                                                 
-        ordering = ('name', 'order_nr')    
+    class Meta:
+        ordering = ('name', 'order_nr')
 
 class Computer(models.Model):
     inventory_number = models.CharField(max_length=200, null=True, blank=True)
