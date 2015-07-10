@@ -4,6 +4,8 @@ from computing.models import (Computer, OperatingSystem, IPPolicy, Subnet,
                               RRZELicense, ComputerType, Warranty)
 
 
+class SubnetAdmin(admin.ModelAdmin):
+    list_display = ('name', 'from_ip', 'to_ip')
 
 class ComputerAdmin(admin.ModelAdmin):
     list_display = ('hostname', 'name', 'purpose', 'computer_type', 'ip',
@@ -57,7 +59,7 @@ admin.site.register(ComputerType)
 admin.site.register(OperatingSystem)
 admin.site.register(IPPolicy)
 admin.site.register(RRZELicense)
-admin.site.register(Subnet)
+admin.site.register(Subnet, SubnetAdmin)
 admin.site.register(Warranty)
 
 
