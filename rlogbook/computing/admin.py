@@ -9,7 +9,8 @@ class SubnetAdmin(admin.ModelAdmin):
 
 class ComputerAdmin(admin.ModelAdmin):
     list_display = ('hostname', 'name', 'purpose', 'computer_type', 'ip',
-                    'user', 'room', 'subnet', 'inventory_number', 'ram')
+                    'user', 'room', 'subnet', 'inventory_number', 'ram',
+                    'comment')
     list_filter = ('computer_type', 'subnet', 'room')
     filter_horizontal = ('rrze_licenses',)
     search_fields = ['name', 'hostname']
