@@ -10,6 +10,13 @@ class SectorAdmin(admin.ModelAdmin):
 class SubnetAdmin(admin.ModelAdmin):
     list_display = ('name', 'sector', 'from_ip', 'to_ip')
 
+class PrinterAdmin(admin.ModelAdmin):
+    list_display = ('hostname', 'name', 'purpose', 'printer_type', 'model',
+                    'ip', 'color', 'manufacturer', 'user', 'room', 'subnet')
+    list_filter = ('printer_type', 'model', 'color', 'manufacturer', 'room',
+                   'subnet')
+    search_fields = ['name', 'hostname', 'purpose']
+
 class ComputerAdmin(admin.ModelAdmin):
     list_display = ('hostname', 'name', 'purpose', 'computer_type', 'ip',
                     'user', 'room', 'subnet', 'inventory_number', 'ram',
