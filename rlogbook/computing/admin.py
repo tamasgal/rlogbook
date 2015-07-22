@@ -1,7 +1,8 @@
 from django.contrib import admin
 
 from computing.models import (Computer, OperatingSystem, IPPolicy, Subnet,
-                              Sector, RRZELicense, ComputerType, Warranty)
+                              Printer, Sector, RRZELicense, ComputerType,
+                              Warranty)
 
 
 class SectorAdmin(admin.ModelAdmin):
@@ -66,6 +67,7 @@ class ComputerAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Computer, ComputerAdmin)
+admin.site.register(Printer, PrinterAdmin)
 admin.site.register(ComputerType)
 admin.site.register(OperatingSystem)
 admin.site.register(IPPolicy)
