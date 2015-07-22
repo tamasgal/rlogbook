@@ -8,7 +8,7 @@ class SectorAdmin(admin.ModelAdmin):
     list_display = ('name', 'from_ip', 'to_ip')
 
 class SubnetAdmin(admin.ModelAdmin):
-    list_display = ('sector', 'name', 'from_ip', 'to_ip')
+    list_display = ('name', 'sector', 'from_ip', 'to_ip')
 
 class ComputerAdmin(admin.ModelAdmin):
     list_display = ('hostname', 'name', 'purpose', 'computer_type', 'ip',
