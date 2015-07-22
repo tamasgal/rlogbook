@@ -116,7 +116,7 @@ class Computer(models.Model):
     # Software
     standard_software = models.CharField(max_length=200, null=True, blank=True)
     additional_software = models.CharField(max_length=200, null=True, blank=True)
-    rrze_licenses = models.ManyToManyField(RRZELicense, null=True, blank=True)
+    rrze_licenses = models.ManyToManyField(RRZELicense, blank=True)
 
     # Warranty and purchase information
     warranty = models.ForeignKey(Warranty, null=True, blank=True)
