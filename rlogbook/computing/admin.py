@@ -23,7 +23,23 @@ class PrinterAdmin(admin.ModelAdmin):
                        'room', 'subnet', 'inventory_number'),
             }),
         ('Hardware', {
-            'fields': ('printer_type', 'manufacturer', 'model', 'color')
+            'fields': ('printer_type', 'manufacturer', 'model', 'color',
+                       'inventory_number')
+            }),
+        ('Purpose', {
+            'fields': ('purpose', 'prior_purpose'),
+            'classes': ['collapse'],
+            }),
+        ('Networking', {
+            'fields': ('mac_address', 'dns_cname', 'dns_hinfo_computer',
+                       'ip_policy'),
+            }),
+        ('Purchase and warranty information', {
+            'fields': ['purchase_date', 'warranty'],
+            'classes': ['collapse'],
+            }),
+        ('Notes', {
+            'fields': ['repair_log', 'comment'],
             }),
     ]
 
