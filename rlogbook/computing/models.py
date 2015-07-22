@@ -21,7 +21,7 @@ class IPPolicy(models.Model):
         ordering = ('name', )
 
 
-class Subnet(models.Model):
+class Sector(models.Model):
     name = models.CharField(max_length=200)
     from_ip = models.GenericIPAddressField()
     to_ip = models.GenericIPAddressField()
@@ -31,6 +31,19 @@ class Subnet(models.Model):
 
     class Meta:
         ordering = ('name', )
+
+
+class Subnet(models.Model):
+    name = models.CharField(max_length=200)
+    from_ip = models.GenericIPAddressField()
+    to_ip = models.GenericIPAddressField()
+    sector = models.ForeignKey(Sector)
+
+    def __unicode__(self):
+        return self.name
+
+    class Meta:
+        ordering = ('sector', 'name')
 
 
 class ComputerType(models.Model):
@@ -72,6 +85,7 @@ class RRZELicense(models.Model):
 
     class Meta:
         ordering = ('name', 'order_nr')
+
 
 class Computer(models.Model):
     inventory_number = models.CharField(max_length=200, null=True, blank=True)
