@@ -37,7 +37,7 @@ class Subnet(models.Model):
     name = models.CharField(max_length=200)
     from_ip = models.GenericIPAddressField()
     to_ip = models.GenericIPAddressField()
-    sector = models.ForeignKey(Sector)
+    sector = models.ForeignKey(Sector, null=True)
 
     def __unicode__(self):
         return self.name
