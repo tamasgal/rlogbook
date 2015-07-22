@@ -98,7 +98,7 @@ class Printer(models.Model):
         ('4', 'thermal'),
     )
     printer_type = models.CharField(max_length=1, choices=PRINTER_TYPE_CHOICES)
-    color = models.BooleanField()
+    color = models.BooleanField(default=True)
 
     name = models.CharField(max_length=200, null=True, blank=True)
 
