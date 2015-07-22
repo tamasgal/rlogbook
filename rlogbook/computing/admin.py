@@ -1,11 +1,14 @@
 from django.contrib import admin
 
 from computing.models import (Computer, OperatingSystem, IPPolicy, Subnet,
-                              RRZELicense, ComputerType, Warranty)
+                              Sector, RRZELicense, ComputerType, Warranty)
 
+
+class SectorAdmin(admin.ModelAdmin):
+    list_display = ('name', 'from_ip', 'to_ip')
 
 class SubnetAdmin(admin.ModelAdmin):
-    list_display = ('name', 'from_ip', 'to_ip')
+    list_display = ('sector', 'name', 'from_ip', 'to_ip')
 
 class ComputerAdmin(admin.ModelAdmin):
     list_display = ('hostname', 'name', 'purpose', 'computer_type', 'ip',
@@ -61,6 +64,7 @@ admin.site.register(OperatingSystem)
 admin.site.register(IPPolicy)
 admin.site.register(RRZELicense)
 admin.site.register(Subnet, SubnetAdmin)
+admin.site.register(Sector, SectorAdmin)
 admin.site.register(Warranty)
 
 
