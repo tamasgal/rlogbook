@@ -17,6 +17,16 @@ class PrinterAdmin(admin.ModelAdmin):
     list_filter = ('printer_type', 'model', 'color', 'manufacturer', 'room',
                    'subnet')
     search_fields = ['name', 'hostname', 'purpose']
+    fieldset = [
+        (None, {
+            'fields': ('hostname', 'name', 'ip', 'user',
+                       'room', 'subnet', 'inventory_number'),
+            }),
+        ('Hardware', {
+            'fields': ('printer_type', 'manufacturer', 'model', 'color')
+            }),
+    ]
+
 
 class ComputerAdmin(admin.ModelAdmin):
     list_display = ('hostname', 'name', 'purpose', 'computer_type', 'ip',
