@@ -163,6 +163,7 @@ class Computer(models.Model):
     # Warranty and purchase information
     warranty = models.ForeignKey(Warranty, null=True, blank=True)
     purchase_date = models.DateField('purchase date', null=True, blank=True)
+    bill = models.CharField(max_length=200, null=True, blank=True)
 
     # Apple specific
     mac_airport = models.CharField(max_length=17, null=True, blank=True)
