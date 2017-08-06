@@ -79,7 +79,7 @@ class ComputerAdmin(admin.ModelAdmin):
             'classes': ['collapse'],
             }),
         ('Purchase and warranty information', {
-            'fields': ['purchase_date', 'warranty'],
+            'fields': ['purchase_date', 'warranty', 'bill'],
             'classes': ['collapse'],
             }),
         ('Misc', {
